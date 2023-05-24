@@ -1,3 +1,7 @@
+<?php
+$current_page =  $_SERVER['REQUEST_URI'];
+?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -20,7 +24,7 @@
     <!-- FONT-FAMALY -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet preload" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet preload" as="style">
 </head>
 
 <body>
@@ -28,40 +32,22 @@
     <!-- HEADER -->
     <header id="header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <a class="navbar-brand" href="#">Navbar</a>
+            <div class="container px-4">
+                <figure class="mb-0">
+                    <a class="navbar-brand" href="#"><img src="/assets/images/logo.svg" alt=""></a>
+                </figure>
+
+                <button>PORTALMAAPI</button>
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            <a class="nav-link <?php echo ($current_page == '/') ? 'active' : '' ?>" aria-current="page" href="#">Home</a>
                         </li>
                     </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
                 </div>
             </div>
         </nav>
@@ -69,3 +55,14 @@
 
     <!-- MAIN CONTENT -->
     <main id="main">
+        <!-- MAIN BANNER -->
+        <section id="main_banner">
+            <div class="container px-4">
+                <div class="row">
+                    <div class="col">
+                        <h1>Somos a MAAPI</h1>
+                        <P>Uma empresa pioneira e inovadora com soluções de ponta para o monitoramento de produtos e cargas em tempo real</P>
+                    </div>
+                </div>
+            </div>
+        </section>
