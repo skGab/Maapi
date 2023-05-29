@@ -1,5 +1,7 @@
 <?php
 $current_page =  $_SERVER['REQUEST_URI'];
+$root = $_SERVER['DOCUMENT_ROOT'];
+require $root . '/conteudo/main_banner.php'
 ?>
 
 <!DOCTYPE html>
@@ -34,10 +36,10 @@ $current_page =  $_SERVER['REQUEST_URI'];
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container px-4">
                 <figure class="mb-0">
-                    <a class="navbar-brand" href="#"><img src="/assets/images/logo.svg" alt=""></a>
+                    <a class="navbar-brand" href="/"><img src="/assets/images/logo.svg" class="img-fluid" alt="Logo Maapi"></a>
                 </figure>
 
-                <button>PORTALMAAPI</button>
+                <button>PORTAL MAAPI</button>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -45,7 +47,9 @@ $current_page =  $_SERVER['REQUEST_URI'];
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link <?php echo ($current_page == '/') ? 'active' : '' ?>" aria-current="page" href="#">Home</a>
+                            <a class="nav-link <?php echo ($current_page == '/') ? 'active' : '' ?>" href="/">Home</a>
+                            <a class="nav-link <?php echo ($current_page == '/pages/sobres-nos.php') ? 'active' : '' ?>" href="/pages/sobre-nos.php">Sobre nós</a>
+                            <a class="nav-link <?php echo ($current_page == '/pages/polar-tracker.php') ? 'active' : '' ?>" href="/pages/polar-tracker.php">Polar Tracker</a>
                         </li>
                     </ul>
                 </div>
@@ -60,8 +64,7 @@ $current_page =  $_SERVER['REQUEST_URI'];
             <div class="container px-4">
                 <div class="row">
                     <div class="col">
-                        <h1>Somos a MAAPI</h1>
-                        <P>Uma empresa pioneira e inovadora com soluções de ponta para o monitoramento de produtos e cargas em tempo real</P>
+                        <?php conteudo($current_page) ?>
                     </div>
                 </div>
             </div>
