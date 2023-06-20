@@ -20,9 +20,7 @@ require $root . '/partials/header.php';
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <button class="mb-5">
-                    <h2 class="mb-0">PRINCIPAIS SOLUÇÕES E BENEFÍCIOS</h2>
-                </button>
+                <h2 class="mb-0">PRINCIPAIS SOLUÇÕES E BENEFÍCIOS</h2>
             </div>
 
             <div class="col">
@@ -168,7 +166,7 @@ require $root . '/partials/header.php';
 <!-- PACOTE -->
 <section id="pacote">
     <div class="container px-4">
-        <!-- <div class="row">
+        <div class="row">
             <div class="col-12">
                 <h2>Pacote de soluções</h2>
             </div>
@@ -222,7 +220,7 @@ require $root . '/partials/header.php';
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
 
         <div class="row">
             <div class="col-12">
@@ -289,7 +287,6 @@ require $root . '/partials/header.php';
         </div>
     </div>
 </section>
-
 
 <?php
 $root = $_SERVER['DOCUMENT_ROOT'];
