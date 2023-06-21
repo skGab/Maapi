@@ -40,8 +40,6 @@ require $root . '/conteudo/main_banner.php'
                     </a>
                 </figure>
 
-
-
                 <button class="navbar-toggler border-0 py-0" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
                     <img src="../assets/icons/menu-hamburguer.svg" class="img-fluid" alt="Menu Hamburguer">
                 </button>
@@ -88,7 +86,9 @@ require $root . '/conteudo/main_banner.php'
     <!-- MENU MOBILE -->
     <div class="offcanvas offcanvas-start px-4" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
         <div class="offcanvas-header pt-5">
-            <img src="../assets/images/logos/logo_maapi.png" class="img-fluid" alt="Logo Maapi Blue">
+            <a href="/">
+                <img src="../assets/images/logos/logo_maapi.png" class="img-fluid" alt="Logo Maapi Blue">
+            </a>
 
             <img type="button" src="../assets/icons/close_menu.png" class="img-fluid" alt="Fechar Menu" data-bs-dismiss="offcanvas" aria-label="Close">
         </div>

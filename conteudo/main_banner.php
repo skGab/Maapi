@@ -3,7 +3,7 @@
 // CONTEUDO
 function conteudo($page)
 {
-    if ($page === "/") {
+    if ($page === "/" or $page === '/index.php') {
         echo '
         <h1>Somos <br> a MAAPI</h1>
         <p class="small">Uma empresa pioneira e inovadora com soluções de ponta para o monitoramento de produtos e cargas em tempo real</p>';
@@ -33,7 +33,7 @@ function conteudo($page)
 // BANNERS
 function banner($page)
 {
-    if ($page === "/") {
+    if ($page === "/" or $page === "/index.php") {
         echo '
         <img class="w-100 position-absolute top-0 start-0 d-sm-none" src="../assets/images/banners/banner_home_mob.png" alt="Banner Home">
 
