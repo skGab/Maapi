@@ -29,27 +29,55 @@ require $root . '/conteudo/main_banner.php'
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet preload" as="style">
 </head>
 
-<body>
-
+<body class="position-relative">
     <!-- HEADER -->
-    <header id="header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container px-4">
+    <header id="header" class="position-absolute top-0 start-0 w-100">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container px-4 pt-4 justify-content-between align-items-end">
                 <figure class="mb-0">
-                    <a class="navbar-brand" href="/"><img src="/assets/images/logo.svg" class="img-fluid" alt="Logo Maapi"></a>
+                    <a class="navbar-brand" href="/">
+                        <img src="../assets/images/logos/logo_maapi.png" class="img-fluid" alt="Logo Maapi">
+                    </a>
                 </figure>
 
-                <button>PORTAL MAAPI</button>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+
+                <button class="navbar-toggler border-0 py-0" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                    <img src="../assets/icons/menu-hamburguer.svg" class="img-fluid" alt="Menu Hamburguer">
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <!-- MENU DESKTOP -->
+                <div class="collapse navbar-collapse justify-content-end flex-grow-0" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-lg-0 text-end text-uppercase align-items-end gap-4">
+                        <!-- HOME -->
                         <li class="nav-item">
                             <a class="nav-link <?php echo ($current_page == '/') ? 'active' : '' ?>" href="/">Home</a>
+                        </li>
+
+                        <!-- SOBRE NOS -->
+                        <li class="nav-item">
                             <a class="nav-link <?php echo ($current_page == '/pages/sobres-nos.php') ? 'active' : '' ?>" href="/pages/sobre-nos.php">Sobre nós</a>
+                        </li>
+
+                        <!-- POLAR TRACKER -->
+                        <li class="nav-item">
                             <a class="nav-link <?php echo ($current_page == '/pages/polar-tracker.php') ? 'active' : '' ?>" href="/pages/polar-tracker.php">Polar Tracker</a>
+                        </li>
+
+                        <!-- APLICAÇÕES -->
+                        <li class="nav-item">
+                            <a class="nav-link <?php echo ($current_page == '/pages/aplicacoes.php') ? 'active' : '' ?>" href="/pages/aplicacoes.php">Aplicações</a>
+                        </li>
+
+                        <!-- CONTATO -->
+                        <li class="nav-item">
+                            <a class="nav-link <?php echo ($current_page == '/pages/contato.php') ? 'active' : '' ?>" href="/pages/contato.php">Contato</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="portal bg-light px-3 py-1 fw-bold d-none d-lg-block" href="/" title="Portal Maapi">
+                                PORTAL MAAPI
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -57,13 +85,73 @@ require $root . '/conteudo/main_banner.php'
         </nav>
     </header>
 
+    <!-- MENU MOBILE -->
+    <div class="offcanvas offcanvas-start px-4" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header pt-5">
+            <img src="../assets/images/logos/logo_maapi.png" class="img-fluid" alt="Logo Maapi Blue">
+
+            <img type="button" src="../assets/icons/close_menu.png" class="img-fluid" alt="Fechar Menu" data-bs-dismiss="offcanvas" aria-label="Close">
+        </div>
+
+        <div class="offcanvas-body mt-4">
+            <ul class="navbar-nav me-auto mb-lg-0 text-end text-uppercase">
+                <hr class="text-white">
+
+                <!-- HOME -->
+                <li class="nav-item">
+                    <a class="nav-link <?php echo ($current_page == '/') ? 'active' : '' ?>" href="/">Home</a>
+                </li>
+
+                <hr class="text-white">
+
+                <!-- SOBRE NOS -->
+                <li class="nav-item">
+                    <a class="nav-link <?php echo ($current_page == '/pages/sobres-nos.php') ? 'active' : '' ?>" href="/pages/sobre-nos.php">Sobre nós</a>
+                </li>
+
+                <hr class="text-white">
+
+                <!-- POLAR TRACKER -->
+                <li class="nav-item">
+                    <a class="nav-link <?php echo ($current_page == '/pages/polar-tracker.php') ? 'active' : '' ?>" href="/pages/polar-tracker.php">Polar Tracker</a>
+                </li>
+
+                <hr class="text-white">
+
+                <!-- APLICAÇÕES -->
+                <li class="nav-item">
+                    <a class="nav-link <?php echo ($current_page == '/pages/aplicacoes.php') ? 'active' : '' ?>" href="/pages/aplicacoes.php">Aplicações</a>
+                </li>
+
+                <hr class="text-white">
+
+                <!-- CONTATO -->
+                <li class="nav-item">
+                    <a class="nav-link <?php echo ($current_page == '/pages/contato.php') ? 'active' : '' ?>" href="/pages/contato.php">Contato</a>
+                </li>
+
+                <hr class="text-white">
+
+                <!-- PÓRTAL -->
+                <li class="nav-item">
+                    <a class="portal bg-light px-3 py-2 fw-bold fs-7" href="/" title="Portal Maapi">
+                        PORTAL MAAPI
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
     <!-- MAIN CONTENT -->
     <main id="main">
         <!-- MAIN BANNER -->
-        <section id="main_banner">
-            <div class="container px-4">
+        <section id="main_banner" class="position-relative d-flex justify-content-center align-items-end">
+
+            <?php banner($current_page) ?>
+
+            <div class="container px-5 mb-5">
                 <div class="row">
-                    <div class="col">
+                    <div class="col conteudo text-white">
                         <?php conteudo($current_page) ?>
                     </div>
                 </div>

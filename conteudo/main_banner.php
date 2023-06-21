@@ -1,11 +1,12 @@
 <?php
 
+// CONTEUDO
 function conteudo($page)
 {
     if ($page === "/") {
         echo '
-        <h1>Somos a MAAPI</h1>
-        <p>Uma empresa pioneira e inovadora com soluções de ponta para o monitoramento de produtos e cargas em tempo real</p>';
+        <h1>Somos <br> a MAAPI</h1>
+        <p class="small">Uma empresa pioneira e inovadora com soluções de ponta para o monitoramento de produtos e cargas em tempo real</p>';
     }
     if ($page === "/pages/sobre-nos.php") {
         echo '
@@ -26,5 +27,45 @@ function conteudo($page)
         echo '
         <h1>Contato</h1>
         <p>Entre em contato conosco e fale diretamente com nossos especialistas!</p>';
+    }
+}
+
+// BANNERS
+function banner($page)
+{
+    if ($page === "/") {
+        echo '
+        <img class="w-100 position-absolute top-0 start-0 d-sm-none" src="../assets/images/banners/banner_home_mob.png" alt="Banner Home">
+
+        <img class="w-100 position-absolute top-0 start-0 d-none d-sm-block" src="../assets/images/banners/banner_home_desk.png" alt="Banner Home">
+        ';
+    }
+    if ($page === "/pages/sobre-nos.php") {
+        echo '
+        <img class="w-100 position-absolute top-0 start-0 d-sm-none" src="../assets/images/banners/banner_sobre_mob.png" alt="Banner Sobre nos">
+        
+        <img class="w-100 position-absolute top-0 start-0 d-none d-sm-block" src="../assets/images/banners/banner_sobre_desk.png" alt="Banner Sobre nos">
+        ';
+    }
+    if ($page === "/pages/polar-tracker.php") {
+        echo '
+        <img class="w-100 position-absolute top-0 start-0 d-sm-none" src="../assets/images/banners/banner_polartracker_mob.png" alt="Banner Polar Tracker">
+        
+        <img class="w-100 position-absolute top-0 start-0 d-none d-sm-block" src="../assets/images/banners/banner_polartracker_desk.png" alt="Banner Polar Tracker">
+        ';
+    }
+    if ($page === "/pages/aplicacoes.php") {
+        echo '
+        <img class="w-100 position-absolute top-0 start-0 d-sm-none" src="../assets/images/banners/banner_aplicacoes_mob.png" alt="Banner Aplicações">
+        
+        <img class="w-100 position-absolute top-0 start-0 d-none d-sm-block" src="../assets/images/banners/banner_aplicacoes_desk.png" alt="Banner Aplicações">
+        ';
+    }
+    if ($page === "/pages/contato.php") {
+        echo '
+        <img class="w-100 position-absolute top-0 start-0" src="../assets/images/banners/banner_contato_mob.png" alt="Banner contato">
+        
+        <img class="w-100 position-absolute top-0 start-0" src="../assets/images/banners/banner_contato_desk.png" alt="Banner contato">
+        ';
     }
 }

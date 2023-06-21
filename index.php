@@ -4,7 +4,7 @@ require $root . '/partials/header.php';
 ?>
 
 <!-- SOBRE -->
-<section id="sobre">
+<!-- <section id="sobre">
     <div class="container px-4">
         <div class="row">
             <div class="col-12">
@@ -16,10 +16,10 @@ require $root . '/partials/header.php';
             </figure>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- POLAR TRACKER -->
-<section id="polar_Tracker">
+<!-- <section id="polar_Tracker">
     <div class="container px-4">
         <div class="row">
             <div class="col">
@@ -30,10 +30,10 @@ require $root . '/partials/header.php';
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- APLICAÇÕES -->
-<section id="aplicacoes">
+<!-- <section id="aplicacoes">
     <div class="container px-4">
         <div class="row">
             <figure class="col-12 mb-0">
@@ -46,7 +46,7 @@ require $root . '/partials/header.php';
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <?php
 $root = $_SERVER['DOCUMENT_ROOT'];
