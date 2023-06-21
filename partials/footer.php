@@ -1,17 +1,16 @@
 <!-- CONTATO -->
-<!-- <section id="contato">
-    <div class="container px-4">
-        <div class="row">
-            <div class="col">
+<section id="contato">
+    <div class="container px-4 py-5">
+        <div class="row py-4">
+            <div class="col-12 col-sm-10 col-md-8 col-lg-5 mx-auto">
                 <h2>Contato</h2>
 
-                <p>Entre em contato conosco e fale diretamente com nossos especialistas!</p>
+                <p class="small mb-4">Entre em contato conosco e fale <br class="d-none d-md-block"> diretamente com nossos especialistas!</p>
 
                 <form>
                     <div class="mb-3">
                         <label for="nome" class="form-label">Nome</label>
                         <input type="text" class="form-control" id="nome" aria-describedby="nome">
-                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                     </div>
 
                     <div class="mb-3">
@@ -31,40 +30,58 @@
 
                     <div class="mb-3">
                         <label class="form-label" for="mesagem">Mensagem</label>
-                        <textarea class="form-control" id="mesagem"></textarea>
+                        <textarea class="form-control"  id="mesagem"></textarea>
                     </div>
 
-                    <button type="submit" class="btn btn-primary">ENVIAR</button>
+                    <button type="submit" class="btn btn-primary w-100">ENVIAR</button>
                 </form>
             </div>
         </div>
     </div>
-</section> -->
+</section>
 </main>
 
 <!-- FOOTER -->
-<!-- <footer id="footer">
-    <div class="container text-center">
-        <div class="row mb-5">
-            <div class="col-12">
+<footer id="footer">
+    <div class="container text-center text-white">
+        <div class="row pt-5 pb-3 align-items-center justify-content-center">
+            <div class="col-12 col-md-3 mb-4 mb-md-0 d-md-none">
                 <figure class="mb-0">
-                    <img src="/assets/icons/logo-grupo-polar.svg" class="img-fluid" alt="Logo Grupo Polar">
-                    <p>Uma empresa do Grupo Polar</p>
+                    <img loading="lazy" src="../assets/images/logos/logo_grupo-polar.png" class="img-fluid mb-3" alt="Logo Grupo Polar">
+                    <p class="small m-md-0">Uma empresa do Grupo Polar</p>
                 </figure>
             </div>
 
-            <div class="col-12">
-                <figure class="mb-0">
-                    <img src="/assets/icons/logo_maapi_footer.svg" class="img-fluid" alt="Logo Maapi">
-                </figure>
-                <figure class="mb-0">
-                    <img src="/assets/icons/facebook_icon.svg" class="img-fluid" alt="Icone facebook">
-                    <img src="/assets/icons/instagram_icon.svg" class="img-fluid" alt="Icone Instagram">
-                    <img src="/assets/icons/youtube_icon.svg" class="img-fluid" alt="Icone Youtube">
-                    <img src="/assets/icons/twitter_icon.svg" class="img-fluid" alt="Icone Twitter">
+            <div class="social col-12 col-md-2">
+                <figure class="mb-4">
+                    <img loading="lazy" src="../assets/images/logos/logo_maapi.png" class="img-fluid" alt="Logo Maapi">
                 </figure>
 
-                <ul class="p-0">
+                <figure class="mb-4 mb-md-0 d-flex justify-content-center gap-2">
+                    <img loading="lazy" src="../assets/icons/facebook_icon.svg" class="img-fluid" alt="Icone facebook">
+                    <img loading="lazy" src="../assets/icons/instagram_icon.svg" class="img-fluid" alt="Icone Instagram">
+                    <img loading="lazy" src="../assets/icons/youtube_icon.svg" class="img-fluid" alt="Icone Youtube">
+                    <img loading="lazy" src="../assets/icons/twitter_icon.svg" class="img-fluid" alt="Icone Twitter">
+                </figure>
+
+                <ul class="p-0 lh-lg d-md-none">
+                    <li>Home</li>
+                    <li>Sobre nós</li>
+                    <li>Polar Tracker</li>
+                    <li>Aplicações</li>
+                    <li>Contato</li>
+                </ul>
+            </div>
+
+            <div class="grupo col-12 col-md-3 mb-4 mb-md-0 mx-md-4 d-none d-md-block">
+                <figure class="mb-0">
+                    <img loading="lazy" src="../assets/images/logos/logo_grupo-polar.png" class="img-fluid mb-3" alt="Logo Grupo Polar">
+                    <p class="small m-md-0">Uma empresa do Grupo Polar</p>
+                </figure>
+            </div>
+
+            <div class="navegacao col-md-2 d-none d-md-block">
+                <ul class="p-0 lh-lg text-start">
                     <li>Home</li>
                     <li>Sobre nós</li>
                     <li>Polar Tracker</li>
@@ -73,13 +90,20 @@
                 </ul>
             </div>
         </div>
+    </div>
 
-        <div class="row">
-            <p>Copyright 2022 | Todos os direitos reservados</p>
-            <p>Desenvolvido por<img src="/assets/icons/black-beans-logo.svg" class="img-fluid" alt="Logo Black Beans"></p>
+    <div class="container-fluid text-center text-white">
+        <div class="row direitos small align-items-end justify-content-start py-5 ">
+            <div class="copyright col-12 col-md-3 mb-4 mb-md-0 ms-md-5">
+                <p class="m-0 mx-auto">Copyright 2022 | Todos os direitos reservados</p>
+            </div>
+
+            <div class="desenvolvido col-12 col-md-3">
+                <p class="m-0 mx-auto">Desenvolvido por <img loading="lazy" src="../assets/images/logos/logo_blackbeans.png" class="img-fluid mb-1 mx-2" alt="Logo Black Beans"></p>
+            </div>
         </div>
     </div>
-</footer> -->
+</footer>
 
 </body>
 

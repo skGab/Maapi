@@ -95,7 +95,7 @@ body {
     }
 
     .nav-link {
-      font-size: 14px;
+      font-size: 0.9rem;
       color: var(--text-white) !important;
       padding-top: 0;
       padding-bottom: 0;
@@ -109,7 +109,7 @@ body {
       letter-spacing: 1px;
       padding: 0;
       color: var(--text-white);
-      font-size: 14px;
+      font-size: 0.9rem;
     }
   }
 
@@ -127,6 +127,68 @@ body {
       .conteudo {
         z-index: 1;
       }
+    }
+
+    #contato {
+      background-color: #f3f6f9;
+
+      h2 {
+        color: #006db6;
+      }
+
+      form {
+        label,
+        textarea {
+          color: var(--title-form);
+        }
+
+        input,
+        textarea {
+          border: 1px solid var(--title-form);
+          border-radius: 0;
+          background: none;
+        }
+
+        textarea {
+          min-height: 99px;
+        }
+
+        button {
+          background-color: var(--title-form);
+        }
+      }
+    }
+  }
+
+  footer {
+    background-color: #022a44;
+
+    figure > p {
+      color: var(--text-portal);
+    }
+
+    ul {
+      li {
+        color: var(--text-portal);
+        font-size: 0.9rem;
+      }
+    }
+
+    .direitos {
+      background-color: #00416d;
+
+      @media screen and (min-width: 768px) {
+        .copyright,
+        .desenvolvido {
+          width: fit-content;
+        }
+      }
+    }
+
+    .grupo,
+    .navegacao,
+    .social {
+      width: fit-content;
     }
   }
 }
