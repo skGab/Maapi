@@ -80,6 +80,26 @@ body {
     list-style: none;
   }
 
+  strong {
+    color: #2699fb;
+  }
+
+  img {
+    object-fit: cover;
+  }
+
+  h2 {
+    color: var(--title-blue);
+  }
+
+  .text-secondary {
+    color: var(--title-blue) !important;
+  }
+
+  .bg-secondary {
+    background-color: var(--title-blue) !important;
+  }
+
   .portal {
     border-radius: 2rem;
     color: var(--text-portal);
@@ -107,7 +127,7 @@ body {
 
     .nav-link {
       letter-spacing: 1px;
-      padding: 0;
+      // padding: 0;
       color: var(--text-white);
       font-size: 0.9rem;
     }
@@ -126,6 +146,45 @@ body {
 
       .conteudo {
         z-index: 1;
+      }
+    }
+
+    // HOME
+    #sobre {
+      max-width: 1600px;
+      min-height: 668px;
+      padding: 3rem 0 0 0;
+
+      h2 {
+        color: var(--title-blue);
+        font-size: 2rem;
+      }
+
+      .detail {
+        z-index: 0;
+      }
+
+      div {
+        z-index: 1;
+      }
+    }
+
+    #polar_tracker {
+      min-height: 510px;
+      img {
+        z-index: 0;
+      }
+
+      div {
+        z-index: 1;
+      }
+    }
+
+    #aplicacoes {
+      @media screen and (min-width: 768px) {
+        figure {
+          order: 1;
+        }
       }
     }
 
@@ -189,6 +248,10 @@ body {
     .navegacao,
     .social {
       width: fit-content;
+    }
+
+    .direitos .row {
+      max-width: 1600px!important;
     }
   }
 }

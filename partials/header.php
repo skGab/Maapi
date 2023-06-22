@@ -102,38 +102,33 @@ require $root . '/conteudo/main_banner.php'
                     <a class="nav-link <?php echo ($current_page == '/') ? 'active' : '' ?>" href="/">Home</a>
                 </li>
 
-                <hr class="text-white">
 
                 <!-- SOBRE NOS -->
                 <li class="nav-item">
                     <a class="nav-link <?php echo ($current_page == '/pages/sobres-nos.php') ? 'active' : '' ?>" href="/pages/sobre-nos.php">Sobre nós</a>
                 </li>
 
-                <hr class="text-white">
 
                 <!-- POLAR TRACKER -->
                 <li class="nav-item">
                     <a class="nav-link <?php echo ($current_page == '/pages/polar-tracker.php') ? 'active' : '' ?>" href="/pages/polar-tracker.php">Polar Tracker</a>
                 </li>
 
-                <hr class="text-white">
 
                 <!-- APLICAÇÕES -->
                 <li class="nav-item">
                     <a class="nav-link <?php echo ($current_page == '/pages/aplicacoes.php') ? 'active' : '' ?>" href="/pages/aplicacoes.php">Aplicações</a>
                 </li>
 
-                <hr class="text-white">
 
                 <!-- CONTATO -->
                 <li class="nav-item">
                     <a class="nav-link <?php echo ($current_page == '/pages/contato.php') ? 'active' : '' ?>" href="/pages/contato.php">Contato</a>
                 </li>
 
-                <hr class="text-white">
 
                 <!-- PÓRTAL -->
-                <li class="nav-item">
+                <li class="nav-item mt-2">
                     <a class="portal bg-light px-3 py-2 fw-bold fs-7" href="/" title="Portal Maapi">
                         PORTAL MAAPI
                     </a>
@@ -149,9 +144,9 @@ require $root . '/conteudo/main_banner.php'
 
             <?php banner($current_page) ?>
 
-            <div class="container px-5 mb-5">
+            <div class="container px-4 mb-5">
                 <div class="row">
-                    <div class="col conteudo text-white">
+                    <div class="col-12 conteudo text-white">
                         <?php conteudo($current_page) ?>
                     </div>
                 </div>

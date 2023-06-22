@@ -106,8 +106,8 @@
         </div>
     </div>
 
-    <div class="container-fluid text-center text-white">
-        <div class="row direitos small align-items-end justify-content-start py-5 ">
+    <div class="direitos container-fluid text-center text-white">
+        <div class="row mx-auto direitos small align-items-end justify-content-start py-5 ">
             <div class="copyright col-12 col-md-3 mb-4 mb-md-0 ms-md-5">
                 <p class="m-0 mx-auto">Copyright 2022 | Todos os direitos reservados</p>
             </div>

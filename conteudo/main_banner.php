@@ -5,8 +5,8 @@ function conteudo($page)
 {
     if ($page === "/" or $page === '/index.php') {
         echo '
-        <h1>Somos <br> a MAAPI</h1>
-        <p class="small">Uma empresa pioneira e inovadora com soluções de ponta para o monitoramento de produtos e cargas em tempo real</p>';
+        <h1>Somos <br class="d-md-none"> a MAAPI</h1>
+        <p class="small">Uma empresa pioneira e inovadora com soluções de ponta <br class="d-none d-md-block"> para o monitoramento de produtos e cargas em tempo real</p>';
     }
     if ($page === "/pages/sobre-nos.php") {
         echo '
