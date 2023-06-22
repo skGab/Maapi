@@ -168,7 +168,7 @@ body {
     }
 
     ul {
-      li {
+      li > a {
         color: var(--text-portal);
         font-size: 0.9rem;
       }

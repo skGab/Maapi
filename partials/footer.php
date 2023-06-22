@@ -30,7 +30,7 @@
 
                     <div class="mb-3">
                         <label class="form-label" for="mesagem">Mensagem</label>
-                        <textarea class="form-control"  id="mesagem"></textarea>
+                        <textarea class="form-control" id="mesagem"></textarea>
                     </div>
 
                     <button type="submit" class="btn btn-primary w-100">ENVIAR</button>
@@ -47,46 +47,60 @@
         <div class="row pt-5 pb-3 align-items-center justify-content-center">
             <div class="col-12 col-md-3 mb-4 mb-md-0 d-md-none">
                 <figure class="mb-0">
-                    <img loading="lazy" src="../assets/images/logos/logo_grupo-polar.png" class="img-fluid mb-3" alt="Logo Grupo Polar">
+                    <a href="https://grupopolar.com.br/" title="Logo Grupo Polar" target="_blank">
+                        <img loading="lazy" src="../assets/images/logos/logo_grupo-polar.png" class="img-fluid mb-3" alt="Logo Grupo Polar">
+                    </a>
                     <p class="small m-md-0">Uma empresa do Grupo Polar</p>
                 </figure>
             </div>
 
             <div class="social col-12 col-md-2">
                 <figure class="mb-4">
-                    <img loading="lazy" src="../assets/images/logos/logo_maapi.png" class="img-fluid" alt="Logo Maapi">
+                    <a href="/" target="_blank">
+                        <img loading="lazy" src="../assets/images/logos/logo_maapi.png" class="img-fluid" alt="Logo Maapi">
+                    </a>
                 </figure>
 
                 <figure class="mb-4 mb-md-0 d-flex justify-content-center gap-2">
-                    <img loading="lazy" src="../assets/icons/facebook_icon.svg" class="img-fluid" alt="Icone facebook">
-                    <img loading="lazy" src="../assets/icons/instagram_icon.svg" class="img-fluid" alt="Icone Instagram">
-                    <img loading="lazy" src="../assets/icons/youtube_icon.svg" class="img-fluid" alt="Icone Youtube">
-                    <img loading="lazy" src="../assets/icons/twitter_icon.svg" class="img-fluid" alt="Icone Twitter">
+                    <a href="">
+                        <img loading="lazy" src="../assets/icons/facebook_icon.svg" class="img-fluid" alt="Icone facebook">
+                    </a>
+                    <a href="">
+                        <img loading="lazy" src="../assets/icons/instagram_icon.svg" class="img-fluid" alt="Icone Instagram">
+                    </a>
+                    <a href="">
+                        <img loading="lazy" src="../assets/icons/youtube_icon.svg" class="img-fluid" alt="Icone Youtube">
+                    </a>
+                    <a href="">
+                        <img loading="lazy" src="../assets/icons/twitter_icon.svg" class="img-fluid" alt="Icone Twitter">
+                    </a>
                 </figure>
 
                 <ul class="p-0 lh-lg d-md-none">
-                    <li>Home</li>
-                    <li>Sobre nós</li>
-                    <li>Polar Tracker</li>
-                    <li>Aplicações</li>
-                    <li>Contato</li>
+                    <li><a href="" title="Home">Home</a></li>
+                    <li><a href="" title="Sobre nos">Sobre nós</a></li>
+                    <li><a href="" title="Polar tracker">Polar Tracker</a></li>
+                    <li><a href="" title="Aplicações">Aplicações</a></li>
+                    <li><a href="" title="Contato">Contato</a></li>
                 </ul>
             </div>
 
             <div class="grupo col-12 col-md-3 mb-4 mb-md-0 mx-md-4 d-none d-md-block">
                 <figure class="mb-0">
-                    <img loading="lazy" src="../assets/images/logos/logo_grupo-polar.png" class="img-fluid mb-3" alt="Logo Grupo Polar">
+                    <a href="https://grupopolar.com.br/" target="_blank">
+                        <img loading="lazy" src="../assets/images/logos/logo_grupo-polar.png" class="img-fluid mb-3" alt="Logo Grupo Polar">
+                    </a>
                     <p class="small m-md-0">Uma empresa do Grupo Polar</p>
                 </figure>
             </div>
 
             <div class="navegacao col-md-2 d-none d-md-block">
                 <ul class="p-0 lh-lg text-start">
-                    <li>Home</li>
-                    <li>Sobre nós</li>
-                    <li>Polar Tracker</li>
-                    <li>Aplicações</li>
-                    <li>Contato</li>
+                    <li><a href="" title="Home">Home</a></li>
+                    <li><a href="" title="Sobre nos">Sobre nós</a></li>
+                    <li><a href="" title="Polar tracker">Polar Tracker</a></li>
+                    <li><a href="" title="Aplicações">Aplicações</a></li>
+                    <li><a href="" title="Contato">Contato</a></li>
                 </ul>
             </div>
         </div>
@@ -99,7 +113,11 @@
             </div>
 
             <div class="desenvolvido col-12 col-md-3">
-                <p class="m-0 mx-auto">Desenvolvido por <img loading="lazy" src="../assets/images/logos/logo_blackbeans.png" class="img-fluid mb-1 mx-2" alt="Logo Black Beans"></p>
+                <p class="m-0 mx-auto">Desenvolvido por
+                    <a href="https://blackbeans.com.br/" target="_blank">
+                        <img loading="lazy" src="../assets/images/logos/logo_blackbeans.png" class="img-fluid mb-1 mx-2" alt="Logo Black Beans">
+                    </a>
+                </p>
             </div>
         </div>
     </div>
