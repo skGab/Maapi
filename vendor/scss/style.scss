@@ -188,6 +188,20 @@ body {
       }
     }
 
+    // SOBRE NOS
+    #topicos {
+      background-color: #eaeff2;
+    }
+
+    #video {
+      img {
+        @media screen and (min-width: 576px) {
+          min-height: 469px;
+          max-height: 469px;
+        }
+      }
+    }
+
     #contato {
       background-color: #f3f6f9;
 
@@ -251,7 +265,7 @@ body {
     }
 
     .direitos .row {
-      max-width: 1600px!important;
+      max-width: 1600px !important;
     }
   }
 }

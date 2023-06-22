@@ -1,44 +1,50 @@
-<!-- CONTATO -->
-<section id="contato">
-    <div class="container px-4 py-5">
-        <div class="row py-4">
-            <div class="col-12 col-sm-10 col-md-8 col-lg-5 mx-auto">
-                <h2>Contato</h2>
+<?php
 
-                <p class="small mb-4">Entre em contato conosco e fale <br class="d-none d-md-block"> diretamente com nossos especialistas!</p>
+$page = $_SERVER['REQUEST_URI'];
 
-                <form>
-                    <div class="mb-3">
-                        <label for="nome" class="form-label">Nome</label>
-                        <input type="text" class="form-control" id="nome" aria-describedby="nome">
-                    </div>
+if ($page != '/pages/sobre-nos.php') : ?>
+    <!-- CONTATO -->
+    <section id="contato">
+        <div class="container px-4 py-5">
+            <div class="row py-4">
+                <div class="col-12 col-sm-10 col-md-8 col-lg-5 mx-auto">
+                    <h2>Contato</h2>
 
-                    <div class="mb-3">
-                        <label for="email" class="form-label">E-mail</label>
-                        <input type="email" class="form-control" id="email">
-                    </div>
+                    <p class="small mb-4">Entre em contato conosco e fale <br class="d-none d-md-block"> diretamente com nossos especialistas!</p>
 
-                    <div class="mb-3">
-                        <label for="telefone" class="form-label">Telefone</label>
-                        <input type="tel" class="form-control" id="telefone">
-                    </div>
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="nome" aria-describedby="nome">
+                        </div>
 
-                    <div class="mb-3">
-                        <label for="empresa" class="form-label">Empresa</label>
-                        <input type="text" class="form-control" id="empresa">
-                    </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
 
-                    <div class="mb-3">
-                        <label class="form-label" for="mesagem">Mensagem</label>
-                        <textarea class="form-control" id="mesagem"></textarea>
-                    </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label">Telefone</label>
+                            <input type="tel" class="form-control" id="telefone">
+                        </div>
 
-                    <button type="submit" class="btn btn-primary w-100">ENVIAR</button>
-                </form>
+                        <div class="mb-3">
+                            <label for="empresa" class="form-label">Empresa</label>
+                            <input type="text" class="form-control" id="empresa">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label" for="mesagem">Mensagem</label>
+                            <textarea class="form-control" id="mesagem"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-100">ENVIAR</button>
+                    </form>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+<?php endif ?>
 </main>
 
 <!-- FOOTER -->
