@@ -4,36 +4,43 @@ $page = $_SERVER['REQUEST_URI'];
 
 if ($page != '/pages/sobre-nos.php') : ?>
     <!-- CONTATO -->
-    <section id="contato">
-        <div class="container px-4 py-5">
-            <div class="row py-4">
-                <div class="col-12 col-sm-10 col-md-8 col-lg-5 mx-auto">
+    <section id="contato" class="position-relative mx-auto">
+
+        <img loading="lazy" class="img-fluid position-absolute end-0 top-0 h-100 w-50 d-none d-xl-block" src="../assets/images/banners/banner_form_desk.png" alt="Banner contato">
+
+        <div class="container px-4">
+            <div class="row justify-content-md-start align-items-md-center py-5">
+                <div class="col-11 col-sm-11 col-md-8 col-lg-6 col-xl-5 col-xxl-5 py-5 mx-auto mx-xl-0">
                     <h2>Contato</h2>
 
-                    <p class="small mb-4">Entre em contato conosco e fale <br class="d-none d-md-block"> diretamente com nossos especialistas!</p>
+                    <p class="small mb-4">Entre em contato conosco e fale <br class="d-md-none"> diretamente com nossos especialistas!</p>
 
                     <form>
-                        <div class="mb-3">
-                            <label for="nome" class="form-label">Nome</label>
-                            <input type="text" class="form-control" id="nome" aria-describedby="nome">
+                        <div class="col-12 d-md-flex gap-3 mb-md-4">
+                            <div class="mb-3 mb-md-0 w-100">
+                                <label for="nome" class="form-label">Nome</label>
+                                <input type="text" class="form-control" id="nome" aria-describedby="nome">
+                            </div>
+
+                            <div class="mb-3 mb-md-0 w-100">
+                                <label for="email" class="form-label">E-mail</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
                         </div>
 
-                        <div class="mb-3">
-                            <label for="email" class="form-label">E-mail</label>
-                            <input type="email" class="form-control" id="email">
+                        <div class="col-12 d-md-flex gap-3 mb-4">
+                            <div class="mb-3 mb-md-0 w-100">
+                                <label for="telefone" class="form-label">Telefone</label>
+                                <input type="tel" class="form-control" id="telefone">
+                            </div>
+
+                            <div class="mb-3 mb-md-0 w-100">
+                                <label for="empresa" class="form-label">Empresa</label>
+                                <input type="text" class="form-control" id="empresa">
+                            </div>
                         </div>
 
-                        <div class="mb-3">
-                            <label for="telefone" class="form-label">Telefone</label>
-                            <input type="tel" class="form-control" id="telefone">
-                        </div>
-
-                        <div class="mb-3">
-                            <label for="empresa" class="form-label">Empresa</label>
-                            <input type="text" class="form-control" id="empresa">
-                        </div>
-
-                        <div class="mb-3">
+                        <div class="mb-3 mb-md-4">
                             <label class="form-label" for="mesagem">Mensagem</label>
                             <textarea class="form-control" id="mesagem"></textarea>
                         </div>
