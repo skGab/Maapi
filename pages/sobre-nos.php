@@ -21,9 +21,9 @@ require $root . '/partials/header.php';
 <!-- VIDEO -->
 <section id="video" class="mx-auto">
     <figure class="mb-0 text-center">
-        <img loading="lazy" src="/assets/images/video_sobreNos.png" class="img-fluid w-100 h-100 d-sm-none" alt="Video Sobre nos">
+        <img loading="lazy" src="../assets/images/video_sobreNos.webp" class="img-fluid w-100 h-100 d-sm-none" alt="Video Sobre nos">
         
-        <img loading="lazy" src="/assets/images/video_sobreNos_desk.png" class="img-fluid w-100 h-100 d-none d-sm-block" 
+        <img loading="lazy" src="../assets/images/video_sobreNos_desk.webp" class="img-fluid w-100 h-100 d-none d-sm-block" 
         alt="Video Sobre nos">
     </figure>
 </section>

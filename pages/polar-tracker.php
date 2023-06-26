@@ -5,9 +5,9 @@ require $root . '/partials/header.php';
 
 <!-- GERENCIAMENTO -->
 <section id="gerenciamento" class="mx-auto position-relative pt-5">
-    <img loading="lazy" class="img-fluid position-absolute top-0 d-md-none" src="../assets/images/dispositivo.png" alt="Dispositivo">
+    <img loading="lazy" class="img-fluid position-absolute top-0 d-md-none" src="../assets/images/dispositivo.webp" alt="Dispositivo">
 
-    <img loading="lazy" width="560px" class="img-fluid position-absolute d-none d-md-block" src="../assets/images/dispositivo_desk.png" alt="Dispositivo">
+    <img loading="lazy" width="560px" class="img-fluid position-absolute d-none d-md-block" src="../assets/images/dispositivo_desk.webp" alt="Dispositivo">
 
     <div class="container px-4 py-5">
         <div class="row pt-5 justify-content-end">
@@ -254,9 +254,9 @@ require $root . '/partials/header.php';
             </div>
 
             <figure class="col-12 mb-0 p-0 text-center">
-                <img loading="lazy" src="../assets/images/video-dash-polar-tracker.png" class="img-fluid d-md-none" alt="Video Thumb">
+                <img loading="lazy" src="../assets/images/video-dash-polar-tracker.webp" class="img-fluid d-md-none" alt="Video Thumb">
                 
-                <img loading="lazy" src="../assets/images/video-dash-polar-tracker_desk.png" class="img-fluid d-none d-md-block mx-auto" alt="Video Thumb">
+                <img loading="lazy" src="../assets/images/video-dash-polar-tracker_desk.webp" class="img-fluid d-none d-md-block mx-auto" alt="Video Thumb">
             </figure>
         </div>
     </div>

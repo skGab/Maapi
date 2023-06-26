@@ -42,9 +42,9 @@ require $root . '/conteudo/main_banner.php'
                 <figure class="mb-0">
                     <a class="navbar-brand" href="/">
                         <?php if ($current_page !== "/pages/contato.php") : ?>
-                            <img src="../assets/images/logos/logo_maapi.png" class="img-fluid" alt="Logo Maapi">
+                            <img src="../assets/images/logos/logo_maapi.png" width="95" height="37" class="img-fluid" alt="Logo Maapi">
                         <?php else : ?>
-                            <img src="../assets/images/logos/logo_maapi_blue.png" class="img-fluid" alt="Logo Maapi">
+                            <img src="../assets/images/logos/logo_maapi_blue.png" width="97" height="39"  class="img-fluid" alt="Logo Maapi">
                         <?php endif ?>
                     </a>
                 </figure>

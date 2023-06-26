@@ -19,8 +19,8 @@ require $root . '/partials/header.php';
             </div>
 
             <figure class="col-12 col-lg-5 mb-0 text-center">
-                <img loading="lazy" src="./assets/images/industria.png" class="img-fluid d-md-none" alt="Industria">
-                <img loading="lazy" src="./assets/images/industria_desk.png" class="img-fluid d-none d-md-block" alt="Industria">
+                <img loading="lazy" src="./assets/images/industria.webp" class="img-fluid d-md-none" alt="Industria">
+                <img loading="lazy" src="./assets/images/industria_desk.webp" width="493" height="465" class="img-fluid d-none d-md-block" alt="Industria">
             </figure>
         </div>
     </div>
@@ -28,9 +28,9 @@ require $root . '/partials/header.php';
 
 <!-- POLAR TRACKER -->
 <section id="polar_tracker" class="position-relative d-flex align-items-center">
-    <img loading="lazy" class="position-absolute top-0 h-100 w-100 d-md-none" src="./assets/images/bg_polartracker_home.png" alt="Background">
+    <img loading="lazy" class="position-absolute top-0 h-100 w-100 d-md-none" src="./assets/images/bg_polartracker_home.webp" alt="Background">
 
-    <img loading="lazy" class="position-absolute top-0 h-100 w-100 d-none d-md-block" src="./assets/images/bg_polartracker_home_desk.png" alt="Background">
+    <img loading="lazy" class="position-absolute top-0 h-100 w-100 d-none d-md-block" src="./assets/images/bg_polartracker_home_desk.webp" alt="Background">
 
     <div class="container px-4 py-4">
         <div class="row">
@@ -51,9 +51,9 @@ require $root . '/partials/header.php';
     <div class="container px-4 py-5 ">
         <div class="row align-items-center">
             <figure class="col-12 col-md-6 mb-0 text-center">
-                <img loading="lazy" src="/assets/images/aplicacoes.png" class="img-fluid d-md-none" alt="Aplicações">
+                <img loading="lazy" src="/assets/images/aplicacoes.webp" class="img-fluid d-md-none" alt="Aplicações">
 
-                <img loading="lazy" src="/assets/images/dispositivo_desk.png" width="480" class="img-fluid d-none d-md-block mx-auto" alt="Aplicações">
+                <img loading="lazy" src="/assets/images/dispositivo_desk.webp" width="480" height="380" class="img-fluid d-none d-md-block mx-auto" alt="Aplicações">
             </figure>
 
             <div class="col-12 col-md-6">

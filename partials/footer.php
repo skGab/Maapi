@@ -1,13 +1,12 @@
 <?php
-
 $page = $_SERVER['REQUEST_URI'];
 
 if ($page != '/pages/sobre-nos.php') : ?>
     <!-- CONTATO -->
-    <section id="contato" class="position-relative mx-auto <?php echo ($page == "/pages/contato.php" ? 'pb-5' : '') ?>">
+    <section id="contato" class="position-relative mx-auto <?php echo ($page == "/pages/contato.php" ? 'pb-4' : '') ?>">
 
         <?php if ($page !== "/pages/contato.php") : ?>
-            <img loading="lazy" class="img-fluid position-absolute end-0 top-0 h-100 w-50 d-none d-xl-block" src="../assets/images/banners/banner_form_desk.png" alt="Banner contato">
+            <img loading="lazy" class="img-fluid position-absolute end-0 top-0 h-100 w-50 d-none d-xl-block" src="../assets/images/banners/banner_form_desk.webp" alt="Banner contato">
         <?php endif ?>
 
         <div class="container px-4 <?php echo ($page == "/pages/contato.php" ? 'pb-5' : '') ?>">
@@ -69,7 +68,7 @@ if ($page != '/pages/sobre-nos.php') : ?>
             <div class="col-12 col-md-3 mb-4 mb-md-0 d-md-none">
                 <figure class="mb-0">
                     <a href="https://grupopolar.com.br/" title="Logo Grupo Polar" target="_blank">
-                        <img loading="lazy" src="../assets/images/logos/logo_grupo-polar.png" class="img-fluid mb-3" alt="Logo Grupo Polar">
+                        <img loading="lazy" src="../assets/images/logos/logo_grupo-polar.png" width="128" height="75" class="img-fluid mb-3" alt="Logo Grupo Polar">
                     </a>
                     <p class="small m-md-0">Uma empresa do Grupo Polar</p>
                 </figure>
@@ -78,7 +77,7 @@ if ($page != '/pages/sobre-nos.php') : ?>
             <div class="social col-12 col-md-2">
                 <figure class="mb-4">
                     <a href="/" target="_blank">
-                        <img loading="lazy" src="../assets/images/logos/logo_maapi.png" class="img-fluid" alt="Logo Maapi">
+                        <img loading="lazy" src="../assets/images/logos/logo_maapi.png" width="95" height="37" class="img-fluid" alt="Logo Maapi">
                     </a>
                 </figure>
 
@@ -109,7 +108,7 @@ if ($page != '/pages/sobre-nos.php') : ?>
             <div class="grupo col-12 col-md-3 mb-4 mb-md-0 mx-md-4 d-none d-md-block">
                 <figure class="mb-0">
                     <a href="https://grupopolar.com.br/" target="_blank">
-                        <img loading="lazy" src="../assets/images/logos/logo_grupo-polar.png" class="img-fluid mb-3" alt="Logo Grupo Polar">
+                        <img loading="lazy" src="../assets/images/logos/logo_grupo-polar.png" width="128" height="75" class="img-fluid mb-3" alt="Logo Grupo Polar">
                     </a>
                     <p class="small m-md-0">Uma empresa do Grupo Polar</p>
                 </figure>
