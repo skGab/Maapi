@@ -21,11 +21,11 @@ function conteudo($page)
     if ($page === "/pages/aplicacoes.php") {
         echo '
         <h1>Aplicações</h1>
-        <p>Evite prejuízos! Não corra o risco de perder seus produtos e cargas: com o Polar Tracker é possível monitorar a umidade e temperatura de produtos e cargas em tempo real!</p>';
+        <p>Evite prejuízos! Não corra o risco de perder seus produtos e cargas: com o Polar Tracker  <br class="d-none d-md-block"> é possível monitorar a umidade e temperatura de produtos e cargas em tempo real!</p>';
     }
     if ($page === "/pages/contato.php") {
         echo '
-        <h1>Contato</h1>
+        <h1 class="display-2">Contato</h1>
         <p>Entre em contato conosco e fale diretamente com nossos especialistas!</p>';
     }
 }

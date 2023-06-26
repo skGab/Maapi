@@ -4,7 +4,7 @@ require $root . '/partials/header.php';
 ?>
 
 <!-- COMPONENTE CONTATO -->
-<section id="">
+<section id="contato">
     <div class="container px-4 py-5">
         <div class="row">
             <div class="col"></div>

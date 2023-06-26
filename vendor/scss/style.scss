@@ -273,6 +273,21 @@ body {
       }
     }
 
+    // APLICAÇÕES
+    #galeria {
+      p {
+        font-weight: 500;
+        color: var(--title-form);
+      }
+
+      .row {
+        gap: 4rem 0;
+      }
+    }
+
+    // CONTATO
+    #pagina_contato
+
     #contato {
       max-width: 1600px;
       background-color: #f3f6f9;

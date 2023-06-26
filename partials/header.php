@@ -13,6 +13,7 @@ require $root . '/conteudo/main_banner.php'
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <meta name="description" content=""> -->
     <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+
     <title>Maapi</title>
 
     <!-- STYLE -->
@@ -33,15 +34,23 @@ require $root . '/conteudo/main_banner.php'
     <!-- HEADER -->
     <header id="header" class="position-absolute top-0 start-0 w-100">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container px-4 pt-4 justify-content-between align-items-end">
+            <div class="container px-4 pt-4 justify-content-between">
                 <figure class="mb-0">
                     <a class="navbar-brand" href="/">
-                        <img src="../assets/images/logos/logo_maapi.png" class="img-fluid" alt="Logo Maapi">
+                        <?php if ($current_page !== "/pages/contato.php") : ?>
+                            <img src="../assets/images/logos/logo_maapi.png" class="img-fluid" alt="Logo Maapi">
+                        <?php else : ?>
+                            <img src="../assets/images/logos/logo_maapi_blue.png" class="img-fluid" alt="Logo Maapi">
+                        <?php endif ?>
                     </a>
                 </figure>
 
                 <button class="navbar-toggler border-0 py-0" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-                    <img src="../assets/icons/menu-hamburguer.svg" class="img-fluid" alt="Menu Hamburguer">
+                    <?php if ($current_page !== "/pages/contato.php") : ?>
+                        <img src="../assets/icons/menu-hamburguer.svg" class="img-fluid" alt="Menu Hamburguer">
+                    <?php else : ?>
+                        <img src="../assets/icons/menu_hamburguer_contato.png" class="img-fluid" alt="Menu Hamburguer">
+                    <?php endif ?>
                 </button>
 
                 <!-- MENU DESKTOP -->
