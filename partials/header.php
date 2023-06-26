@@ -59,7 +59,7 @@ require $root . '/conteudo/main_banner.php'
 
                 <!-- MENU DESKTOP -->
                 <div class="collapse navbar-collapse justify-content-end flex-grow-0" id="navbarSupportedContent">
-                    <ul class="navbar-nav mb-lg-0 text-end text-uppercase align-items-end gap-4">
+                    <ul class="navbar-nav mb-lg-0 text-end text-uppercase align-items-center gap-4">
                         <!-- HOME -->
                         <li class="nav-item">
                             <a class="nav-link <?php echo ($current_page == '/') ? 'active' : '' ?>" href="/">Home</a>
@@ -86,7 +86,7 @@ require $root . '/conteudo/main_banner.php'
                         </li>
 
                         <li class="nav-item">
-                            <a class="portal bg-light px-3 py-1 fw-bold d-none d-lg-block" href="/" title="Portal Maapi">
+                            <a class="portal bg-light px-3 py-2 fw-bold d-none d-lg-block" href="/" title="Portal Maapi">
                                 PORTAL MAAPI
                             </a>
                         </li>

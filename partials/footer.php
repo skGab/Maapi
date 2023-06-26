@@ -4,14 +4,14 @@ $page = $_SERVER['REQUEST_URI'];
 
 if ($page != '/pages/sobre-nos.php') : ?>
     <!-- CONTATO -->
-    <section id="contato" class="position-relative mx-auto">
+    <section id="contato" class="position-relative mx-auto <?php echo ($page == "/pages/contato.php" ? 'pb-5' : '') ?>">
 
         <?php if ($page !== "/pages/contato.php") : ?>
             <img loading="lazy" class="img-fluid position-absolute end-0 top-0 h-100 w-50 d-none d-xl-block" src="../assets/images/banners/banner_form_desk.png" alt="Banner contato">
         <?php endif ?>
 
-        <div class="container px-4">
-            <div class="row align-items-md-center <?php echo ($page == "/pages/contato.php" ? 'justify-content-md-end' : 'justify-content-md-start py-5') ?> ">
+        <div class="container px-4 <?php echo ($page == "/pages/contato.php" ? 'pb-5' : '') ?>">
+            <div class="row align-items-md-center <?php echo ($page == "/pages/contato.php" ? 'justify-content-md-end pb-5' : 'justify-content-md-start py-5') ?> ">
                 <div class="col-11 col-sm-11 col-md-8 col-lg-6 col-xl-5 col-xxl-5 pt-4 pb-5 py-md-5 mx-auto mx-xl-0">
                     <?php if ($page !== "/pages/contato.php") : ?>
                         <h2>Contato</h2>
@@ -49,7 +49,11 @@ if ($page != '/pages/sobre-nos.php') : ?>
                             <textarea class="form-control" id="mesagem"></textarea>
                         </div>
 
-                        <button type="submit" class="btn btn-primary w-100">ENVIAR</button>
+                        <button type="submit" class="btn btn-primary w-100 <?php echo ($current_page === '/pages/contato.php' ? 'mb-4' : '')  ?>" disabled>ENVIAR</button>
+
+                        <?php if ($current_page === "/pages/contato.php") : ?>
+                            <p class="mb-0">Entre em contato conosco e fale diretamente com nossos especialistas!</p>
+                        <?php endif ?>
                     </form>
                 </div>
             </div>

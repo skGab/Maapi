@@ -66,7 +66,7 @@ function banner($page)
         echo '
         <img class="w-100 position-absolute top-0 start-0 d-md-none" src="../assets/images/banners/banner_contato_mob.png" alt="Banner contato">
         
-        <img class="w-100 position-absolute top-0 d-none d-md-block contato_bg" src="../assets/images/banners/banner_contato_desk.png" alt="Banner contato">
+        <img class="w-100 position-absolute d-none d-md-block contato_bg" src="../assets/images/banners/banner_contato_desk.png" alt="Banner contato">
         ';
     }
 }

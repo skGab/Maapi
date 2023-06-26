@@ -1,32 +1,45 @@
-#header .nav-link {
-  color: #000000 !important;
+#header {
+  .nav-link {
+    color: #003365 !important;
+    font-weight: 500;
+  }
+
+  .portal {
+    background-color: #006db6 !important;
+    color: #ffff;
+  }
 }
 
 #main {
-  min-height: 100vh;
+  // min-height: 100vh;
   background-color: #ebeff2;
 
   #main_banner {
-    min-height: 450px !important;
+    min-height: 450px;
   }
 
   #contato {
-    background: linear-gradient(to top, #f4f5f8 80%, transparent) !important;
+    background: linear-gradient(to top, #f4f5f8 80%, transparent);
 
     .row {
-      padding-top: 0 !important;
+      padding-top: 0;
+    }
+
+    p {
+      color: #003365;
+      font-weight: 500;
     }
   }
 
   @media screen and (min-width: 1200px) {
     #main_banner img {
       left: calc(-10% + (140 * (100vw - 1200px) / 300));
-      top: 15px !important;
+      top: 31%;
     }
 
     #contato {
       margin-top: -20rem;
-      background: none !important;
+      background: none;
     }
   }
 }
