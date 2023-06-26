@@ -1,0 +1,32 @@
+#header .nav-link {
+  color: #000000 !important;
+}
+
+#main {
+  min-height: 100vh;
+  background-color: #ebeff2;
+
+  #main_banner {
+    min-height: 450px !important;
+  }
+
+  #contato {
+    background: linear-gradient(to top, #f4f5f8 80%, transparent) !important;
+
+    .row {
+      padding-top: 0 !important;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    #main_banner img {
+      left: calc(-10% + (140 * (100vw - 1200px) / 300));
+      top: 15px !important;
+    }
+
+    #contato {
+      margin-top: -20rem;
+      background: none !important;
+    }
+  }
+}

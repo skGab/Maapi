@@ -17,7 +17,11 @@ require $root . '/conteudo/main_banner.php'
     <title>Maapi</title>
 
     <!-- STYLE -->
-    <link rel="stylesheet" href="/assets/css/compressed/style.min.css">
+    <link rel="stylesheet" href="../assets/css/compressed/style.min.css">
+
+    <?php if ($current_page == "/pages/contato.php") : ?>
+        <link rel="stylesheet" href="../assets/css/compressed/contato.min.css">
+    <?php endif ?>
 
     <!-- BOOTSTRAP 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">

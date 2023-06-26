@@ -6,14 +6,18 @@ if ($page != '/pages/sobre-nos.php') : ?>
     <!-- CONTATO -->
     <section id="contato" class="position-relative mx-auto">
 
-        <img loading="lazy" class="img-fluid position-absolute end-0 top-0 h-100 w-50 d-none d-xl-block" src="../assets/images/banners/banner_form_desk.png" alt="Banner contato">
+        <?php if ($page !== "/pages/contato.php") : ?>
+            <img loading="lazy" class="img-fluid position-absolute end-0 top-0 h-100 w-50 d-none d-xl-block" src="../assets/images/banners/banner_form_desk.png" alt="Banner contato">
+        <?php endif ?>
 
         <div class="container px-4">
-            <div class="row justify-content-md-start align-items-md-center py-5">
-                <div class="col-11 col-sm-11 col-md-8 col-lg-6 col-xl-5 col-xxl-5 py-5 mx-auto mx-xl-0">
-                    <h2>Contato</h2>
+            <div class="row align-items-md-center <?php echo ($page == "/pages/contato.php" ? 'justify-content-md-end' : 'justify-content-md-start py-5') ?> ">
+                <div class="col-11 col-sm-11 col-md-8 col-lg-6 col-xl-5 col-xxl-5 pt-4 pb-5 py-md-5 mx-auto mx-xl-0">
+                    <?php if ($page !== "/pages/contato.php") : ?>
+                        <h2>Contato</h2>
 
-                    <p class="small mb-4">Entre em contato conosco e fale <br class="d-md-none"> diretamente com nossos especialistas!</p>
+                        <p class="small mb-4">Entre em contato conosco e fale <br class="d-md-none"> diretamente com nossos especialistas!</p>
+                    <?php endif ?>
 
                     <form>
                         <div class="col-12 d-md-flex gap-3 mb-md-4">
@@ -56,8 +60,8 @@ if ($page != '/pages/sobre-nos.php') : ?>
 
 <!-- FOOTER -->
 <footer id="footer">
-    <div class="container text-center text-white">
-        <div class="row pt-5 pb-3 align-items-center justify-content-center">
+    <div class="container text-center text-white py-md-5">
+        <div class="row pt-5 py-md-5 pb-3 align-items-center justify-content-center">
             <div class="col-12 col-md-3 mb-4 mb-md-0 d-md-none">
                 <figure class="mb-0">
                     <a href="https://grupopolar.com.br/" title="Logo Grupo Polar" target="_blank">
@@ -120,7 +124,7 @@ if ($page != '/pages/sobre-nos.php') : ?>
     </div>
 
     <div class="direitos container-fluid text-center text-white">
-        <div class="row mx-auto direitos small align-items-end justify-content-start py-5 ">
+        <div class="row mx-auto direitos small align-items-end justify-content-start py-4">
             <div class="copyright col-12 col-md-3 mb-4 mb-md-0 ms-md-5">
                 <p class="m-0 mx-auto">Copyright 2022 | Todos os direitos reservados</p>
             </div>

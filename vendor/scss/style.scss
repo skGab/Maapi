@@ -115,6 +115,16 @@ body {
     letter-spacing: 0.5px;
   }
 
+  .contato-title {
+    color: var(--title-form);
+    font-weight: 500;
+  }
+
+  .contato-text {
+    color: var(--text-dark);
+    font-weight: 500;
+  }
+
   header {
     z-index: 1;
 
@@ -153,6 +163,10 @@ body {
 
       .conteudo {
         z-index: 1;
+      }
+
+      .contato_bg {
+        max-width: 1047px;
       }
     }
 
@@ -285,9 +299,6 @@ body {
       }
     }
 
-    // CONTATO
-    #pagina_contato
-
     #contato {
       max-width: 1600px;
       background-color: #f3f6f9;
@@ -300,6 +311,7 @@ body {
         label,
         textarea {
           color: var(--title-form);
+          font-weight: 500;
         }
 
         input,
@@ -314,6 +326,7 @@ body {
         }
 
         button {
+          font-weight: 500;
           background-color: var(--title-form);
         }
       }

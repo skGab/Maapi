@@ -25,8 +25,9 @@ function conteudo($page)
     }
     if ($page === "/pages/contato.php") {
         echo '
-        <h1 class="display-2">Contato</h1>
-        <p>Entre em contato conosco e fale diretamente com nossos especialistas!</p>';
+        <h1 class="display-2 contato-title mb-3 d-md-none">Contato</h1>
+        <h1 class="contato-title mb-3 d-none d-md-block">Contato</h1>
+        <p class="contato-text">Entre em contato conosco e <br> fale diretamente com nossos especialistas!</p>';
     }
 }
 
@@ -63,9 +64,9 @@ function banner($page)
     }
     if ($page === "/pages/contato.php") {
         echo '
-        <img class="w-100 position-absolute top-0 start-0" src="../assets/images/banners/banner_contato_mob.png" alt="Banner contato">
+        <img class="w-100 position-absolute top-0 start-0 d-md-none" src="../assets/images/banners/banner_contato_mob.png" alt="Banner contato">
         
-        <img class="w-100 position-absolute top-0 start-0" src="../assets/images/banners/banner_contato_desk.png" alt="Banner contato">
+        <img class="w-100 position-absolute top-0 d-none d-md-block contato_bg" src="../assets/images/banners/banner_contato_desk.png" alt="Banner contato">
         ';
     }
 }
