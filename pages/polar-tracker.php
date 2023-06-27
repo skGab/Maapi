@@ -4,14 +4,14 @@ require $root . '/partials/header.php';
 ?>
 
 <!-- GERENCIAMENTO -->
-<section id="gerenciamento" class="mx-auto position-relative pt-5">
+<section id="gerenciamento" class="mx-auto position-relative pt-5" >
     <img loading="lazy" class="img-fluid position-absolute top-0 d-md-none" src="../assets/images/dispositivo.webp" alt="Dispositivo">
 
-    <img loading="lazy" width="560px" class="img-fluid position-absolute d-none d-md-block" src="../assets/images/dispositivo_desk.webp" alt="Dispositivo">
+    <img loading="lazy" data-aos="zoom-out-up" data-aos-duration="1000" data-aos-anchor-placement="top-center" width="560px" class="img-fluid position-absolute d-none d-md-block" src="../assets/images/dispositivo_desk.webp" alt="Dispositivo">
 
     <div class="container px-4 py-5">
         <div class="row pt-5 justify-content-end">
-            <div class="col-12 col-md-4 col-lg-6 col-xl-7 col-xxl-8">
+            <div class="col-12 col-md-4 col-lg-6 col-xl-7 col-xxl-8" data-aos="fade-left" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
                 <h2 class="mb-3">Sistema de gerenciamento para cadeia fria</h2>
 
                 <p class="small">Solução ideal para o monitoramento em tempo real da temperatura e umidade de <br> embalagens, câmeras frias, refrigeradores, freezers, veículos e armazéns.</p>
@@ -28,7 +28,7 @@ require $root . '/partials/header.php';
                 <p class="categoria mb-0 small text-white mx-auto px-3 py-3 rounded-pill text-center">PRINCIPAIS SOLUÇÕES E BENEFÍCIOS</p>
             </div>
 
-            <div class="col-6 col-md-3 col-lg-2">
+            <div class="col-6 col-md-3 col-lg-2" data-aos="fade-up" data-aos-duration="800">
                 <div class="card border-0 bg-transparent text-white text-center">
                     <img loading="lazy" src="../assets/icons/24-horas_icon.svg" width="30px" class=" mx-auto" alt="Icone Tópico">
 
@@ -38,7 +38,7 @@ require $root . '/partials/header.php';
                 </div>
             </div>
 
-            <div class="col-6 col-md-3 col-lg-2">
+            <div class="col-6 col-md-3 col-lg-2" data-aos="fade-up" data-aos-duration="1000">
                 <div class="card border-0 bg-transparent text-white text-center">
                     <img loading="lazy" src="../assets/icons/relatorios_icon.svg" width="22px" class=" mx-auto" alt="Icone Tópico">
 
@@ -49,7 +49,7 @@ require $root . '/partials/header.php';
                 </div>
             </div>
 
-            <div class="col-6 col-md-3 col-lg-2">
+            <div class="col-6 col-md-3 col-lg-2" data-aos="fade-up" data-aos-duration="1500">
                 <div class="card border-0 bg-transparent text-white text-center">
                     <img loading="lazy" src="../assets/icons/wpp_icon.svg" width="30px" height="30px" class=" mx-auto" alt="Icone Tópico">
 
@@ -59,7 +59,7 @@ require $root . '/partials/header.php';
                 </div>
             </div>
 
-            <div class="col-6 col-md-3 col-lg-2">
+            <div class="col-6 col-md-3 col-lg-2" data-aos="fade-up" data-aos-duration="1800">
                 <div class="card border-0 bg-transparent text-white text-center">
                     <img loading="lazy" src="../assets/icons/monitoramento_icon.svg" width="24px" class=" mx-auto" alt="Icone Tópico">
 
@@ -69,7 +69,7 @@ require $root . '/partials/header.php';
                 </div>
             </div>
 
-            <div class="col-6 col-md-3 col-lg-2">
+            <div class="col-6 col-md-3 col-lg-2" data-aos="fade-up" data-aos-duration="2000">
                 <div class="card border-0 bg-transparent text-white text-center">
                     <img loading="lazy" src="../assets/icons/validavel_icon.svg" width="23px" class=" mx-auto" alt="Icone Tópico">
 
@@ -79,7 +79,7 @@ require $root . '/partials/header.php';
                 </div>
             </div>
 
-            <div class="col-6 col-md-3 col-lg-2">
+            <div class="col-6 col-md-3 col-lg-2" data-aos="fade-up" data-aos-duration="2500">
                 <div class="card border-0 bg-transparent text-white text-center">
                     <img loading="lazy" src="../assets/icons/geolocalizacao.svg" width="20px" class=" mx-auto" alt="Icone Tópico">
 
@@ -95,7 +95,7 @@ require $root . '/partials/header.php';
                 <h2 class="categoria categoria2 mb-0 small text-white px-3 w-100 mx-auto py-3 rounded-pill text-center fw-light">PRINCIPAIS VANTAGENS</h2>
             </div>
 
-            <div class="col-6 col-md-3 col-lg-2">
+            <div class="col-6 col-md-3 col-lg-2" data-aos="fade-up" data-aos-duration="800">
                 <div class="card border-0 bg-transparent text-white text-center">
                     <img loading="lazy" src="../assets/icons/seguranca_icon.svg" width="18px" class="mx-auto" alt="Icone Tópico">
                     <div class="card-body">
@@ -104,7 +104,7 @@ require $root . '/partials/header.php';
                 </div>
             </div>
 
-            <div class="col-6 col-md-3 col-lg-2">
+            <div class="col-6 col-md-3 col-lg-2" data-aos="fade-up" data-aos-duration="1000">
                 <div class="card border-0 bg-transparent text-white text-center">
                     <img loading="lazy" src="../assets/icons/sensor_icon.svg" width="22px" class="mx-auto" alt="Icone Tópico">
                     <div class="card-body">
@@ -114,7 +114,7 @@ require $root . '/partials/header.php';
                 </div>
             </div>
 
-            <div class="col-6 col-md-3 col-lg-2">
+            <div class="col-6 col-md-3 col-lg-2" data-aos="fade-up" data-aos-duration="1500">
                 <div class="card border-0 bg-transparent text-white text-center">
                     <img loading="lazy" src="../assets/icons/layout_icon.svg" width="33px" class="mx-auto" alt="Icone Tópico">
                     <div class="card-body">
@@ -123,7 +123,7 @@ require $root . '/partials/header.php';
                 </div>
             </div>
 
-            <div class="col-6 col-md-3 col-lg-2">
+            <div class="col-6 col-md-3 col-lg-2" data-aos="fade-up" data-aos-duration="1800">
                 <div class="card border-0 bg-transparent text-white text-center">
                     <img loading="lazy" src="../assets/icons/conformidade_icon.svg" width="25px" class="mx-auto" alt="Icone Tópico">
                     <div class="card-body">
@@ -133,7 +133,7 @@ require $root . '/partials/header.php';
                 </div>
             </div>
 
-            <div class="col-6 col-md-3 col-lg-2">
+            <div class="col-6 col-md-3 col-lg-2" data-aos="fade-up" data-aos-duration="2000">
                 <div class="card border-0 bg-transparent text-white text-center">
                     <img loading="lazy" src="../assets/icons/suporte_icon.svg" width="30px" class="mx-auto" alt="Icone Tópico">
                     <div class="card-body">
@@ -142,7 +142,7 @@ require $root . '/partials/header.php';
                 </div>
             </div>
 
-            <div class="col-6 col-md-3 col-lg-2">
+            <div class="col-6 col-md-3 col-lg-2" data-aos="fade-up" data-aos-duration="2500">
                 <div class="card border-0 bg-transparent text-white text-center">
                     <img loading="lazy" src="../assets/icons/logistica_icon.svg" width="30px" class="mx-auto" alt="Icone Tópico">
                     <div class="card-body">
@@ -152,7 +152,7 @@ require $root . '/partials/header.php';
                 </div>
             </div>
 
-            <div class="col-6 col-md-3 col-lg-2">
+            <div class="col-6 col-md-3 col-lg-2" data-aos="fade-up" data-aos-duration="2800">
                 <div class="card border-0 bg-transparent text-white text-center">
                     <img loading="lazy" src="../assets/icons/relatorios_icon.svg" width="22px" class="mx-auto" alt="Icone Tópico">
                     <div class="card-body">
@@ -162,7 +162,7 @@ require $root . '/partials/header.php';
                 </div>
             </div>
 
-            <div class="col-6 col-md-3 col-lg-2">
+            <div class="col-6 col-md-3 col-lg-2" data-aos="fade-up" data-aos-duration="3000">
                 <div class="card border-0 bg-transparent text-white text-center">
                     <img loading="lazy" src="../assets/icons/bateria_icon.svg" width="15px" class="mx-auto" alt="Icone Tópico">
                     <div class="card-body">
@@ -172,7 +172,7 @@ require $root . '/partials/header.php';
                 </div>
             </div>
 
-            <div class="col-6 col-md-3 col-lg-2">
+            <div class="col-6 col-md-3 col-lg-2" data-aos="fade-up" data-aos-duration="3000">
                 <div class="card border-0 bg-transparent text-white text-center">
                     <img loading="lazy" src="../assets/icons/anatel_icon.svg" width="43px" class="mx-auto" alt="Icone Tópico">
                     <div class="card-body">
@@ -193,7 +193,7 @@ require $root . '/partials/header.php';
                 <h2>Pacote de <br class="d-md-none"> soluções</h2>
             </div>
 
-            <div class="col-12 col-md-4 col-lg-3">
+            <div class="col-12 col-md-4 col-lg-3"  data-aos="fade-right" data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom">
                 <div class="card mx-auto text-center border-0 py-4">
                     <div class="circle h4 px-3 py-3 rounded-circle w-25 mx-auto text-white fw-bold mb-3">1</div>
                     
@@ -208,7 +208,7 @@ require $root . '/partials/header.php';
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 col-lg-3">
+            <div class="col-12 col-md-4 col-lg-3"  data-aos="fade-right" data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom">
                 <div class="card mx-auto text-center border-0 py-4">
                     <div class="circle h4 px-3 py-3 rounded-circle w-25 mx-auto text-white fw-bold mb-4">2</div>
                     <img src="/assets/icons/dispositivos_icon.png" width="26" height="34" class="img-fluid mx-auto" alt="...">
@@ -222,7 +222,7 @@ require $root . '/partials/header.php';
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 col-lg-3">
+            <div class="col-12 col-md-4 col-lg-3"  data-aos="fade-left" data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom">
                 <div class="card mx-auto text-center border-0 py-4">
                     <div class="circle h4 px-3 py-3 rounded-circle w-25 mx-auto text-white fw-bold mb-2">3</div>
                     <div class="card-body">
@@ -234,7 +234,7 @@ require $root . '/partials/header.php';
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 col-lg-3">
+            <div class="col-12 col-md-4 col-lg-3"  data-aos="fade-left" data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom">
                 <div class="card mx-auto text-center border-0 py-4">
                     <div class="circle h4 px-3 py-3 rounded-circle w-25 mx-auto text-white fw-bold mb-2">4</div>
                     <div class="card-body">
@@ -270,7 +270,7 @@ require $root . '/partials/header.php';
                 <h2>Polar Tracker <br class="d-md-none"> Light</h2>
             </div>
 
-            <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="col-12 col-sm-4 col-md-3 col-lg-2" data-aos="fade-up" data-aos-duration="800" data-aos-anchor-placement="bottom-center">
                 <div class="card border-0 text-center bg-transparent pb-4">
                     <img loading="lazy" src="/assets/icons/sensor_light_icon.png" width="47" height="47" class="img-fluid mx-auto" alt="Sensor de temperatura icone">
                     <div class="card-body">
@@ -280,7 +280,7 @@ require $root . '/partials/header.php';
                 </div>
             </div>
 
-            <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="col-12 col-sm-4 col-md-3 col-lg-2" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-center">
                 <div class="card border-0 text-center bg-transparent pb-4">
                     <img loading="lazy" src="/assets/icons/memoria_light_icon.png" width="35" height="35" class="img-fluid mx-auto" alt="Memória dispositivo icone">
                     <div class="card-body">
@@ -289,7 +289,7 @@ require $root . '/partials/header.php';
                 </div>
             </div>
 
-            <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="col-12 col-sm-4 col-md-3 col-lg-2" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="bottom-center">
                 <div class="card border-0 text-center bg-transparent pb-4">
                     <img loading="lazy" src="/assets/icons/bateria_light_icon.png" width="20" height="20" class="img-fluid mx-auto" alt="Bateria Icone">
                     <div class="card-body">
@@ -298,7 +298,7 @@ require $root . '/partials/header.php';
                 </div>
             </div>
 
-            <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="col-12 col-sm-4 col-md-3 col-lg-2" data-aos="fade-up" data-aos-duration="1800" data-aos-anchor-placement="bottom-center">
                 <div class="card border-0 text-center bg-transparent pb-4">
                     <img loading="lazy" src="/assets/icons/wpp_light_icon.png" width="28" height="28" class="img-fluid mx-auto" alt="Wpp Icone">
                     <div class="card-body">
@@ -308,7 +308,7 @@ require $root . '/partials/header.php';
                 </div>
             </div>
 
-            <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="col-12 col-sm-4 col-md-3 col-lg-2" data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-center">
                 <div class="card border-0 text-center bg-transparent">
                     <img loading="lazy" src="/assets/icons/calibracao_light_icon.png" width="25" height="25" class="img-fluid mx-auto" alt="Laboratorio acreditado icone">
                     <div class="card-body">

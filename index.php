@@ -12,13 +12,13 @@ require $root . '/partials/header.php';
 
     <div class="container px-4 py-5">
         <div class="row align-items-center justify-content-between">
-            <div class="col-12 col-lg-6 mb-4">
+            <div class="col-12 col-lg-6 mb-4" data-aos="fade-right" data-aos-duration="1000">
                 <h2 class="h1">Sobre Nós <img loading="lazy" src="./assets/icons/detalhe_maapi.svg" class="img-fluid ms-4" alt="Detalhe Maapi"></h2>
 
                 <p>A Maapi é uma empresa do Grupo Polar, referência há mais de 20 anos em cadeia do frio no Brasil e no Mundo, que atua de maneira dedicada no desenvolvimento soluções inovadoras. Formado por uma equipe técnica altamente qualificada, nosso Centro de Inteligência Tecnológica desenvolveu com exclusividade o <strong>Polar Tracker:</strong> um produto altamente seguro e efetivo para o monitoramento em tempo real da temperatura e umidade de embalagens, câmaras frias, refrigeradores, freezers, veículos e armazéns.</p>
             </div>
 
-            <figure class="col-12 col-lg-5 mb-0 text-center">
+            <figure class="col-12 col-lg-5 mb-0 text-center" data-aos="fade-left" data-aos-duration="800" data-aos-anchor-placement="top-bottom">
                 <img loading="lazy" src="./assets/images/industria.webp" class="img-fluid d-md-none" alt="Industria">
                 <img loading="lazy" src="./assets/images/industria_desk.webp" width="493" height="465" class="img-fluid d-none d-md-block" alt="Industria">
             </figure>
@@ -50,13 +50,13 @@ require $root . '/partials/header.php';
 <section id="aplicacoes" class="py-4">
     <div class="container px-4 py-5 ">
         <div class="row align-items-center">
-            <figure class="col-12 col-md-6 mb-0 text-center">
+            <figure class="col-12 col-md-6 mb-0 text-center" data-aos="fade-left" data-aos-duration="1000">
                 <img loading="lazy" src="/assets/images/aplicacoes.webp" class="img-fluid d-md-none" alt="Aplicações">
 
                 <img loading="lazy" src="/assets/images/dispositivo_desk.webp" width="480" height="380" class="img-fluid d-none d-md-block mx-auto" alt="Aplicações">
             </figure>
 
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6" data-aos="fade-right" data-aos-duration="1000">
                 <h2 class="mb-4">Aplicações</h2>
                 <p class="mb-4">Evite prejuízos! Não corra o risco de perder seus produtos e <br class="d-none d-xl-block"> cargas: com o Polar Tracker é possível monitorar a umidade e <br class="d-none d-xl-block"> temperatura de produtos e cargas em tempo real!</p>
                 <button class="small text-white border-0 px-3 py-1 rounded-pill bg-secondary">SAIBA MAIS</button>

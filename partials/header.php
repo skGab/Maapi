@@ -29,6 +29,9 @@ require $root . '/conteudo/page_title.php'
 
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
+    <!-- ANIMATION -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- FONT-FAMALY -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,7 +41,7 @@ require $root . '/conteudo/page_title.php'
 <body class="position-relative">
     <!-- HEADER -->
     <header id="header" class="position-absolute top-0 start-0 w-100">
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light" data-aos="fade-down" data-aos-duration="800" data-aos-once="true">
             <div class="container px-4 pt-4 justify-content-between">
                 <figure class="mb-0">
                     <a class="navbar-brand" href="/">

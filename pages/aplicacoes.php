@@ -7,7 +7,7 @@ require $root . '/partials/header.php';
 <section id="galeria" class="py-md-5">
     <div class="container px-4 py-5">
         <div class="row justify-content-center">
-            <div class="col-6 col-md-4 col-lg-3">
+            <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-duration="800" data-aos-anchor-placement="top-bottom">
                 <div class="card border-0 text-center">
                     <figure class="text-center">
                         <img loading="lazy" class="img-fluid d-sm-none mx-auto" src="../assets/images/thumbs/thumb_medicina.webp" alt="Medicina Thumb">
@@ -18,7 +18,7 @@ require $root . '/partials/header.php';
                 </div>
             </div>
 
-            <div class="col-6 col-md-4 col-lg-3">
+            <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
                 <div class="card border-0 text-center">
                     <figure>
                         <img loading="lazy" class="img-fluid d-sm-none mx-auto" src="../assets/images/thumbs/thumb_diagnostico.webp" alt="Diagnóstico Thumb">
@@ -28,7 +28,7 @@ require $root . '/partials/header.php';
                 </div>
             </div>
 
-            <div class="col-6 col-md-4 col-lg-3">
+            <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
                 <div class="card border-0 text-center">
                     <figure>
                         <img loading="lazy" class="img-fluid d-sm-none mx-auto" src="../assets/images/thumbs/thumb_saude-animal.webp" alt="Saúde animal Thumb">
@@ -39,7 +39,7 @@ require $root . '/partials/header.php';
                 </div>
             </div>
 
-            <div class="col-6 col-md-4 col-lg-3">
+            <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-duration="1800" data-aos-anchor-placement="top-bottom">
                 <div class="card border-0 text-center">
                     <figure>
                         <img loading="lazy" class="img-fluid d-sm-none mx-auto" src="../assets/images/thumbs/thumb_logistica.webp" alt="Logística Thumb">
@@ -50,7 +50,7 @@ require $root . '/partials/header.php';
                 </div>
             </div>
 
-            <div class="col-6 col-md-4 col-lg-3">
+            <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-bottom">
                 <div class="card border-0 text-center">
                     <figure>
                         <img loading="lazy" class="img-fluid d-sm-none mx-auto" src="../assets/images/thumbs/thumb_farmaceutica.webp" alt="Indústria Thumb">
@@ -60,7 +60,7 @@ require $root . '/partials/header.php';
                 </div>
             </div>
 
-            <div class="col-6 col-md-4 col-lg-3">
+            <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-duration="2500" data-aos-anchor-placement="top-bottom">
                 <div class="card border-0 text-center">
                     <figure>
                         <img loading="lazy" class="img-fluid d-sm-none mx-auto" src="../assets/images/thumbs/thumb_tranposte.webp" alt="Transporte Thumb">
@@ -70,7 +70,7 @@ require $root . '/partials/header.php';
                 </div>
             </div>
 
-            <div class="col-6 col-md-4 col-lg-3">
+            <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-duration="2800" data-aos-anchor-placement="top-bottom">
                 <div class="card border-0 text-center">
                     <figure>
                         <img loading="lazy" class="img-fluid d-sm-none mx-auto" src="../assets/images/thumbs/thumb_food-service.webp" alt="Food service Thumb">
@@ -81,7 +81,7 @@ require $root . '/partials/header.php';
                 </div>
             </div>
 
-            <div class="col-6 col-md-4 col-lg-3">
+            <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-duration="2800" data-aos-anchor-placement="top-bottom">
                 <div class="card border-0 text-center">
                     <figure>
                         <img loading="lazy" class="img-fluid d-sm-none mx-auto" src="../assets/images/thumbs/thumb_camara.webp" alt="Câmara Thumb">
