@@ -1,7 +1,8 @@
 <?php
 $current_page =  $_SERVER['REQUEST_URI'];
 $root = $_SERVER['DOCUMENT_ROOT'];
-require $root . '/conteudo/main_banner.php'
+require $root . '/conteudo/main_banner.php';
+require $root . '/conteudo/page_title.php'
 ?>
 
 <!DOCTYPE html>
@@ -12,9 +13,9 @@ require $root . '/conteudo/main_banner.php'
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <meta name="description" content=""> -->
-    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+    <link rel="shortcut icon" href="../assets/icons/detalhe_maapi.svg" type="image/x-icon">
 
-    <title>Maapi</title>
+    <title><?php title($current_page) ?></title>
 
     <!-- STYLE -->
     <link rel="stylesheet" href="../assets/css/compressed/style.min.css">
@@ -44,7 +45,7 @@ require $root . '/conteudo/main_banner.php'
                         <?php if ($current_page !== "/pages/contato.php") : ?>
                             <img src="../assets/images/logos/logo_maapi.png" width="95" height="37" class="img-fluid" alt="Logo Maapi">
                         <?php else : ?>
-                            <img src="../assets/images/logos/logo_maapi_blue.png" width="97" height="39"  class="img-fluid" alt="Logo Maapi">
+                            <img src="../assets/images/logos/logo_maapi_blue.png" width="97" height="39" class="img-fluid" alt="Logo Maapi">
                         <?php endif ?>
                     </a>
                 </figure>
