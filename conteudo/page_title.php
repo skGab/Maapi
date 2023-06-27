@@ -13,7 +13,7 @@ function title($page)
         echo 'Maapi - Polar Tracker';
     }
     if ($page === "/pages/aplicacoes.php") {
-        echo 'Mappi - Aplicações';
+        echo 'Maapi - Aplicações';
     }
     if ($page === "/pages/contato.php") {
         echo 'Maapi - Contato';
