@@ -7,7 +7,7 @@ require $root . '/partials/header.php';
 <section id="gerenciamento" class="mx-auto position-relative pt-5" >
     <img loading="lazy" class="img-fluid position-absolute top-0 d-md-none" src="../assets/images/dispositivo.webp" alt="Dispositivo">
 
-    <img loading="lazy" data-aos="zoom-out-up" data-aos-duration="1000" data-aos-anchor-placement="top-center" width="560px" class="img-fluid position-absolute d-none d-md-block" src="../assets/images/dispositivo_desk.webp" alt="Dispositivo">
+    <img loading="lazy" data-aos="zoom-out-up" data-aos-duration="1000" data-aos-anchor-placement="top-bottom" width="560px" class="img-fluid position-absolute d-none d-md-block" src="../assets/images/dispositivo_desk.webp" alt="Dispositivo">
 
     <div class="container px-4 py-5">
         <div class="row pt-5 justify-content-end">

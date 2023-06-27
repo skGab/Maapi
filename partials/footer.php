@@ -97,11 +97,11 @@ if ($page != '/pages/sobre-nos.php') : ?>
                 </figure>
 
                 <ul class="p-0 lh-lg d-md-none">
-                    <li><a href="" title="Home">Home</a></li>
-                    <li><a href="" title="Sobre nos">Sobre nós</a></li>
-                    <li><a href="" title="Polar tracker">Polar Tracker</a></li>
-                    <li><a href="" title="Aplicações">Aplicações</a></li>
-                    <li><a href="" title="Contato">Contato</a></li>
+                    <li><a href="/" title="Home">Home</a></li>
+                    <li><a href="/pages/sobre-nos.php" title="Sobre nos">Sobre nós</a></li>
+                    <li><a href="/pages/polar-tracker.php" title="Polar tracker">Polar Tracker</a></li>
+                    <li><a href="/pages/aplicacoes.php" title="Aplicações">Aplicações</a></li>
+                    <li><a href="/pages/contato.php" title="Contato">Contato</a></li>
                 </ul>
             </div>
 
