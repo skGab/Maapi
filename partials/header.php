@@ -12,7 +12,7 @@ require $root . '/conteudo/page_title.php'
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <meta name="description" content=""> -->
+    <meta name="description" content="Maapi, uma empresa do Grupo Polar, lidera a cadeia do frio há mais de 20 anos com inovação e experiência global. Contando com uma equipe de especialistas, desenvolvemos soluções únicas como o Polar Tracker, garantindo monitoramento preciso e em tempo real de temperatura e umidade para diversas aplicações, desde embalagens a armazéns.">
     <link rel="shortcut icon" href="../assets/icons/detalhe_maapi.svg" type="image/x-icon">
 
     <title><?php title($current_page) ?></title>
@@ -71,7 +71,7 @@ require $root . '/conteudo/page_title.php'
 
                         <!-- SOBRE NOS -->
                         <li class="nav-item">
-                            <a class="nav-link <?php echo ($current_page == '/pages/sobres-nos.php') ? 'active' : '' ?>" href="/pages/sobre-nos.php">Sobre nós</a>
+                            <a class="nav-link <?php echo ($current_page == '/pages/sobre-nos.php') ? 'active' : '' ?>" href="/pages/sobre-nos.php">Sobre nós</a>
                         </li>
 
                         <!-- POLAR TRACKER -->

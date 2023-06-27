@@ -143,6 +143,10 @@ body {
       padding-bottom: 0;
       font-weight: 500;
     }
+
+    .nav-link.active {
+      font-weight: 800;
+    }
   }
 
   .offcanvas {
